@@ -26,9 +26,4 @@ def tobogganRide(d: Int, h: Int): Int = extendMap(d).zipWithIndex.foldLeft(Ride(
 tobogganRide(3,1)
 
 //Answer 2
-val mult = tobogganRide(3,1) * tobogganRide(1,1) * tobogganRide(5,1) * tobogganRide(7,1) * tobogganRide(1,2)
-
-
-
-
-
+tobogganRide(3,1) * tobogganRide(1,1) * tobogganRide(5,1) * tobogganRide(7,1) * tobogganRide(1,2)
